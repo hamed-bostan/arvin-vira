@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <header className="bg-[#454242] h-[20rem]">
+    <header className="h-[20rem]">
       <div className="text-[#FAFAFA] flex flex-col items-center justify-center h-full">
         <h2 className="text-lg leading-[40px] mb-1">
           لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ

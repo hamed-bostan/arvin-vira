@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Description() {
   return (
-    <div className="flex gap-x-12 px-64 bg-amber-950 pt-6">
+    <div className="flex gap-x-12 px-64 bg-[#4f4f4f88] pt-6">
       <Image
         src={"/images/Device.png"}
         alt="device image"

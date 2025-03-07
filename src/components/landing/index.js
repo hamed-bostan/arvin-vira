@@ -8,7 +8,7 @@ export default function Landing() {
     <div>
       <Header />
       <Description />
-      <div className="flex flex-col items-center bg-amber-900 text-[#FAFAFA] pt-24">
+      <div className="flex flex-col items-center text-[#FAFAFA] pt-24">
         <ItemsList
           mainText="لورم ایپسوم متن ساختگی با تولید سادگی"
           highlightedText="سادگی"
@@ -19,7 +19,7 @@ export default function Landing() {
           text="لورم ایپسوم متن ساختگی با تولید سادگی"
         />
       </div>
-      <div className="flex flex-col items-center bg-amber-900 text-[#FAFAFA] pt-24">
+      <div className="flex flex-col items-center text-[#FAFAFA] py-24">
         <ItemsList
           mainText="لورم ایپسوم متن ساختگی با تولید سادگی"
           highlightedText="سادگی"
