@@ -1,4 +1,5 @@
 import Description from "./description";
+import Details from "./details";
 import Header from "./header";
 
 export default function Landing() {
@@ -6,6 +7,7 @@ export default function Landing() {
     <div>
       <Header />
       <Description />
+      <Details />
     </div>
   );
 }
