@@ -1,5 +1,5 @@
+import ItemsList from "../common/ItemsList";
 import Description from "./description";
-import Details from "./details";
 import Header from "./header";
 
 export default function Landing() {
@@ -7,7 +7,11 @@ export default function Landing() {
     <div>
       <Header />
       <Description />
-      <Details />
+      <ItemsList
+        mainText="لورم ایپسوم متن ساختگی با تولید سادگی"
+        highlightedText="سادگی"
+        description="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز"
+      />
     </div>
   );
 }
