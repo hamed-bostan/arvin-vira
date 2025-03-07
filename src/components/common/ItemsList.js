@@ -6,12 +6,12 @@ export default function ItemsList({ mainText, highlightedText, description }) {
       <span className="mx-auto block text-sm leading-[22px] px-6 py-2 bg-[#393C3E] rounded-lg mb-1 border border-[#4a4a4a] w-fit">
         راه‌کار ‌ها
       </span>
-      <p className="text-3xl leading-[57px] mb-6 text-center">
+      <h2 className="text-3xl leading-[57px] mb-6 text-center">
         {mainText}
         <span className="bg-gradient-to-r from-[#FCB81B] to-[#FB6514] bg-clip-text text-transparent mr-2">
           {highlightedText}
         </span>
-      </p>
+      </h2>
       <p className="leading-[32px] mb-6 text-center max-w-[796px]">
         {description}
       </p>

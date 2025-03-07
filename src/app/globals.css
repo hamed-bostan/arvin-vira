@@ -1,15 +1,25 @@
+@font-face {
+  font-family: "fontMoraba";
+  src: url("/fonts/Morabba.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FontYekan";
+  src: url("/fonts/Yekan Bakh.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* TailwindCSS Import */
 @import "tailwindcss";
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-moraba: "fontMoraba", sans-serif;
+  --font-yekan: "FontYekan", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,5 +32,14 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-yekan);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-moraba);
 }

@@ -18,9 +18,9 @@ export default function Description() {
           alt="building icon"
           className="w-6 h-6 bg-[#393C3E] rounded-lg box-content p-3 mb-3"
         />
-        <p className="font-semibold text-2xl leading-[68px] mb-6">
+        <h2 className="font-semibold text-2xl leading-[68px] mb-6">
           لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
-        </p>
+        </h2>
         <p className="leading-[26px]">
           لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
           از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و
