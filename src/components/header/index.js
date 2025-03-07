@@ -10,7 +10,7 @@ export default function Header() {
         <h1 className="font-semibold leading-[92px] text-[56px] mb-6">
           لورم ایپسوم متن ساختگی با تولید سادگی
         </h1>
-        <section className="relative flex">
+        <section className="relative flex mb-6">
           <p className="bg-gradient-to-l from-[#FE8B20] via-[#AECE3B] to-[#119389] text-transparent bg-clip-text text-2xl leading-[40px]">
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
           </p>
