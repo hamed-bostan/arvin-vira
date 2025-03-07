@@ -1,5 +1,5 @@
-import Description from "../description";
-import Header from "../header";
+import Description from "./description";
+import Header from "./header";
 
 export default function Landing() {
   return (
