@@ -1,7 +1,7 @@
 export default function BuildingDetails({ imagePath, text }) {
   return (
     <div
-      className="bg-cover bg-center h-[296px] w-[625px] relative text-lg leading-8 text-[#FAFAFA]"
+      className="bg-cover h-[296px] w-[625px] relative text-lg leading-8 text-[#FAFAFA]"
       style={{ backgroundImage: `url(${imagePath})` }}
     >
       <p className="bg-[#8F959A1A] rounded-2xl min-w-[365px] p-3 absolute top-0 -left-32 mb-6">
