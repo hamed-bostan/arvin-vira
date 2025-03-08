@@ -1,1 +1,5 @@
-Test project for Arvin vira compony with Next js and mui.
+✅ Clean code & reusable components  
+✅ Conventional & meaningful commits  
+✅ Git workflow followed  
+❌ No image slider  
+❌ No background  
